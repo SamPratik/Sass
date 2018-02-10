@@ -1,5 +1,20 @@
 #main-nav {
   background: #032f3e; }
+  #main-nav ul {
+    width: 100%; }
+  #main-nav li {
+    float: left;
+    width: 14%; }
+  #main-nav a {
+    display: block;
+    color: #f8f9fb;
+    text-decoration: none;
+    padding: 14px; }
+
+ul:after {
+  content: '';
+  display: block;
+  clear: both; }
 
 section h1 {
   font-size: 24px;
