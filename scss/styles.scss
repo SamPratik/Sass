@@ -11,6 +11,9 @@
   li {
     float: left;
     width: (100% / 6);
+    @include mQ(600px) {
+      width: 100%
+    }
   }
   a {
     display: block;
@@ -19,7 +22,7 @@
     text-decoration: none;
     padding: 14px;
     &:hover {
-      background: #333;
+      background: lighten($deepBlue, 5);
     }
   }
 } // end of main-nav...
@@ -62,7 +65,7 @@ section h1 {
     color: $deepBlue;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: complement($deepBlue);
     }
   }
   ul {
