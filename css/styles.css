@@ -41,6 +41,8 @@ li {
     display: block;
     color: #f8f9fb;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     text-decoration: none;
     padding: 14px; }
     #main-nav a:hover {
@@ -67,6 +69,9 @@ section h1 {
     -webkit-text-decoration: uppercase;
     text-decoration: uppercase;
     font-weight: bold; }
+    @media screen and (max-width: 3000px) and (min-width: 1200px) {
+      .lead-banner span {
+        font-size: 68px; } }
   .lead-banner span.title {
     font-weight: normal;
     margin-bottom: 30px; }
@@ -87,6 +92,9 @@ section h1 {
     -webkit-text-decoration: uppercase;
     text-decoration: uppercase;
     font-weight: bold; }
+    @media screen and (max-width: 3000px) and (min-width: 1200px) {
+      .lessons-banner span {
+        font-size: 68px; } }
   .lessons-banner span.title {
     font-weight: normal;
     margin-bottom: 30px; }
